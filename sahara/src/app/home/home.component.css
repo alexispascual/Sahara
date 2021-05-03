@@ -1,0 +1,47 @@
+.my-container {
+/*css for full size background image*/
+/*	background: url(../../assets/css/background2.jpg) no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	height: 100%;
+	background-color: #121212;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+	min-height: 100%;
+	min-width: 1024px;
+
+	width: 100%;
+	position: fixed;
+	
+	opacity: 0.8;
+	vertical-align: middle;
+}
+
+.text {
+	position: absolute;
+	text-align: center;
+	left: 25%;
+	right: 25%;
+}
+
+.title-text{
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+}
+
+.sub-text{
+  font-size: 32px;
+  font-family: 'Roboto';
+  padding-top: 20px;
+}
+
+.btn {
+  
+  background-color: #02515f;
+  border-color: #02515f;
+}
+$body-bg: transparent;
